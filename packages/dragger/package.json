@@ -1,0 +1,16 @@
+{
+  "name": "dragger",
+  "version": "0.0.1",
+  "description": "the dragger package is infrastructure module",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "rm -rf bin && tsc && rollup -c",
+    "build:watch": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhi <linkxsystem@gmail.com>",
+  "maintainers": [
+    "zhi <linkxsystem@gmail.com>"
+  ],
+  "license": "MIT"
+}

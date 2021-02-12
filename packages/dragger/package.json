@@ -1,5 +1,5 @@
 {
-  "name": "dragger",
+  "name": "@scheletros/dragger",
   "version": "0.0.1",
   "description": "the dragger package is infrastructure module",
   "main": "bin/index.js",

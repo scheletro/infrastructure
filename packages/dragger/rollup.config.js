@@ -2,10 +2,10 @@ import resolve from 'rollup-plugin-node-resolve';
 import { terser } from "rollup-plugin-terser";
 import typescript from '@rollup/plugin-typescript';
 
-const config = require('./package.json');
-const { name } = config;
+// const config = require('./package.json');
+// const { name } = config;
 
-const library = name;
+const library = 'dragger';
 const input = 'bin/index.js';
 
 export default [
@@ -14,7 +14,7 @@ export default [
     output: {
       file: `bundled/${library}.js`,
       format: 'iife',
-      name,
+      name:  library,
     },
     plugins: [resolve(), terser()]
   },

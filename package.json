@@ -6,7 +6,8 @@
     "doc": "docs"
   },
   "workspaces": [
-    "packages/dragger"
+    "packages/dragger",
+    "packages/animator"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

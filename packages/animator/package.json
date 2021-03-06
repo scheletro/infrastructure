@@ -1,0 +1,24 @@
+{
+  "name": "@scheletros/animator",
+  "version": "0.0.1",
+  "description": "the animator package is infrastructure module",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "rm -rf bin && tsc && rollup -c",
+    "build:watch": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scheletro/infrastructure.git"
+  },
+  "author": "zhi <linkxsystem@gmail.com>",
+  "maintainers": [
+    "zhi <linkxsystem@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scheletro/infrastructure/issues"
+  },
+  "homepage": "https://github.com/scheletro/infrastructure#readme"
+}
